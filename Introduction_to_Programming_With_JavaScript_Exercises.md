@@ -20,6 +20,19 @@ Exercises for each section of Launch Schools Intro to Programming with JavaScrip
     }
     ```
 
+1. Identify the data type for each of the following values:
+
+```javascript
+
+
+    'true' // String
+    false // Boolean
+    1.5 // Nummber
+    2 // Number
+    undefined // Undefined
+    { foo: 'bar' } // Object
+
+
 ## Variables
 
 ## Input/Output
