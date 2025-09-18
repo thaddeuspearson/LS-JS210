@@ -2,11 +2,13 @@
 Exercises for each section of Launch Schools Intro to Programming with JavaScript Book
 
 ## The Basics
+
 1. Concatenate two or more strings, one with your first name and one with your last, to create a string with your full name as its value. For example, if your name is John Doe, think about how you can put `'John'` and `'Doe'` together to get `'John Doe'`.
 
     ```javascript
     'Thaddeus' + ' ' + 'Pearson'
     ```
+    &nbsp;
 
 1. Using arithmetic operators, get the individual digits of a 4-digit number like `4936`
 
@@ -19,6 +21,7 @@ Exercises for each section of Launch Schools Intro to Programming with JavaScrip
         console.log(digit)
     }
     ```
+    &nbsp;
 
 1. Identify the data type for each of the following values:
 
@@ -30,6 +33,16 @@ Exercises for each section of Launch Schools Intro to Programming with JavaScrip
          undefined  // Undefined
     { foo: 'bar' }  // Object
     ```
+    &nbsp;
+
+1. Explain why this code logs '510' instead of 15
+
+    ```javascript
+    console.log('5' + 10);
+    ```
+
+    The javascript interpreter is using implicit coercion to change the type of `10` to a string. If either operand is a string, the `+` operator will always result in concatenation.
+    &nbsp;
 
 ## Variables
 
