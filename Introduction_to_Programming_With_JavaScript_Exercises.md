@@ -44,6 +44,13 @@ Exercises for each section of Launch Schools Intro to Programming with JavaScrip
     The javascript interpreter is using implicit coercion to change the type of `10` to a string. If either operand is a string, the `+` operator will always result in concatenation.
     &nbsp;
 
+1. Refactor the code from the previous exercise to use explicit coercion, so it logs 15 instead
+
+    ```javascript
+    console.log(Number('5') + 10)
+    ```
+    &nbsp;
+
 ## Variables
 
 ## Input/Output
