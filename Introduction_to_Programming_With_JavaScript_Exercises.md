@@ -58,6 +58,16 @@ Exercises for each section of Launch Schools Intro to Programming with JavaScrip
     ```
     &nbsp;
 
+1. Will an error occur if you try to access an array element with an index that is greater than or equal to the length of the array? For example:
+    ```javascript
+    let foo = ['a', 'b', 'c'];
+    console.log(foo.length);  // => 3
+    console.log(foo[3]); 
+    ```
+    The above code will not cause an error, however `undefined` will be printed as there is no 3rd index in `foo` as currently defined.
+    &nbsp;
+
+
 ## Variables
 
 ## Input/Output
