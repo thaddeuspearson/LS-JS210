@@ -70,7 +70,7 @@ Exercises for each section of Launch Schools Intro to Programming with JavaScrip
     
     &nbsp;
 
-1.  Create an array named names that contains a list of pet names.
+1. Create an array named `names` that contains a list of pet names.
 
     ```javascript
     let names = [
@@ -84,6 +84,18 @@ Exercises for each section of Launch Schools Intro to Programming with JavaScrip
     ```
     &nbsp;
 
+1. Create an object named `pets` that contains a list of pet names and the type of animal.
+
+    ```javascript
+        let pets = {
+            asta : 'dog',
+            butterscotch : 'cat',
+            pudding : 'cat',
+            neptune : 'fish',
+            darwin : 'lizard',
+        };
+    ```
+    &nbsp;
 
 
 ## Variables
