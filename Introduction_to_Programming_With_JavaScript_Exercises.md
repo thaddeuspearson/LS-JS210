@@ -97,6 +97,16 @@ Exercises for each section of Launch Schools Intro to Programming with JavaScrip
     ```
     &nbsp;
 
+1. What value does the following expression evaluate to?
+
+    ```javascript
+    console.log('foo' === 'Foo');
+    ```
+
+    This will evaluate to False and print `false` to the console.
+
+    &nbsp;
+
 
 ## Variables
 
