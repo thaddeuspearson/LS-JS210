@@ -127,8 +127,19 @@ Exercises for each section of Launch Schools Intro to Programming with JavaScrip
 
     &nbsp;
 
-
 ## Variables
+
+1. Write a program named age.js that includes someone's age and then calculates and reports the future age in 10, 20, 30 and 40 years.
+
+    ```javascript
+    let age = 20;
+
+    for (year = 10; year < 50; year += 10) {
+        console.log(`In ${year} years, you will be ${age + year} years old.`)
+    }
+    ```
+    &nbsp;
+
 
 ## Input/Output
 
