@@ -129,6 +129,16 @@ Exercises for each section of Launch Schools Intro to Programming with JavaScrip
 
 ## Variables
 
+1. Write a program named `greeter.js` that greets `'Victor'` three times. Your program should use a variable and not hard code the string value `'Victor` in each greeting.
+
+    ```javascript
+    let name = 'Victor';
+    console.log(`Good Morning, ${name}.`);
+    console.log(`Good Afternoon, ${name}.`);
+    console.log(`Good Evening, ${name}.`);
+    ```
+    &nbsp;
+
 1. Write a program named age.js that includes someone's age and then calculates and reports the future age in 10, 20, 30 and 40 years.
 
     ```javascript
@@ -139,6 +149,8 @@ Exercises for each section of Launch Schools Intro to Programming with JavaScrip
     }
     ```
     &nbsp;
+
+1. 
 
 
 ## Input/Output
