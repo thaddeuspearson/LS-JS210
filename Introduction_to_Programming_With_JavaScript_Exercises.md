@@ -150,7 +150,18 @@ Exercises for each section of Launch Schools Intro to Programming with JavaScrip
     ```
     &nbsp;
 
-1. 
+1. What happens when you run the following program? Why do we get that result?
+
+    ```javascript
+    {
+    let foo = 'bar';
+    }
+    console.log(foo);
+    ```
+
+    `Reference error`, as foo is only defined within the scope of the brackets.
+    
+    &nbsp;
 
 
 ## Input/Output
